@@ -1,0 +1,49 @@
+tail /home/chiehhsin/data/pubg/agg_match_stats_0.csv 
+hdfs dfs -ls /user/chiehhsin 
+hdfs dfs -mkdir /user/chiehhsin/data 
+hdfs dfs -rm -r /home/chiehhsin/data/* 
+hdfs dfs -put /home/chiehhsin/data/agg_match_stats_0.csv /user/chiehhsin/data/agg_match_stats_0.csv 
+hdfs dfs -tail /user/chiehhsin/data/agg_match_stats_0.csv 
+
+
+
+tail /home/chiehhsin/data/agg_match_stats_1.csv 
+hdfs dfs -ls /user/chiehhsin 
+hdfs dfs -mkdir /user/chiehhsin/data 
+hdfs dfs -rm -r /home/chiehhsin/data/* 
+hdfs dfs -put /home/chiehhsin/data/agg_match_stats_1.csv /user/chiehhsin/data/agg_match_stats_1.csv 
+hdfs dfs -tail /user/chiehhsin/data/agg_match_stats_1.csv 
+ 
+
+
+tail /home/chiehhsin/data/agg_match_stats_2.csv 
+hdfs dfs -ls /user/chiehhsin 
+hdfs dfs -mkdir /user/chiehhsin/data 
+hdfs dfs -rm -r /home/chiehhsin/data/* 
+hdfs dfs -put /home/chiehhsin/data/agg_match_stats_2.csv /user/chiehhsin/data/agg_match_stats_2.csv 
+hdfs dfs -tail /user/chiehhsin/data/agg_match_stats_2.csv 
+
+
+
+tail /home/chiehhsin/data/agg_match_stats_3.csv 
+hdfs dfs -ls /user/chiehhsin 
+hdfs dfs -mkdir /user/chiehhsin/data 
+hdfs dfs -rm -r /home/chiehhsin/data/* 
+hdfs dfs -put /home/chiehhsin/data/agg_match_stats_3.csv /user/chiehhsin/data/agg_match_stats_3.csv 
+hdfs dfs -tail /user/chiehhsin/data/agg_match_stats_3.csv 
+
+
+
+tail /home/chiehhsin/data/agg_match_stats_4.csv 
+hdfs dfs -ls /user/chiehhsin 
+hdfs dfs -mkdir /user/chiehhsin/data 
+hdfs dfs -rm -r /home/chiehhsin/data/* 
+hdfs dfs -put /home/chiehhsin/data/agg_match_stats_4.csv /user/chiehhsin/data/agg_match_stats_4.csv 
+hdfs dfs -tail /user/chiehhsin/data/agg_match_stats_4.csv 
+
+
+
+
+
+
+
